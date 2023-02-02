@@ -3,6 +3,8 @@ layout: default
 title: "Privacy Policy"
 ---
 
+# Privacy Policy
+
 At RoosterApp, accessible from RoosterApp.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information collected and recorded by RoosterApp and how we use it.
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 
