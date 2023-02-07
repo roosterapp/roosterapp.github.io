@@ -1,3 +1,62 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: Rooster 
+description: Rooster App
+baseurl: / # the subpath of your site, e.g. /support
+url: https://crew.lk # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+permalink: /:categories/:title
+
+content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
+use_authors: true #Set this to false to disable showing post authors
+
+brand_logo: logo.png
+brand_name: Rooster
+header: How can we help you?
+subheader: Support and documentation for Rooster
+
+meta_image: rooster-meta.png
+
+# Social Links
+twitter_username: crewdigitallk
+facebook_page:
+email: rooster@crew.lk
+linkedin_page:
+instagram_username: 
+
+
+# Navivation
+nav_item_one: Privacy Policy
+nav_item_one_link: /privacy
+
+nav_item_two: Terms and Conditions
+nav_item_two_link: /terms
+
+nav_item_three: #
+nav_item_three_link: #
+
+# More Help
+help_one_title: Rooster Bugs
+help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
+help_one_button: Github
+
+help_two_title: Twitter
+help_two_content: Feel free to tweet at me if you have suggestions for Rooster. Or if you just want to say hi.
+help_two_button: Twitter
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+
+
+sass:
+  sass_dir:          _scss
+  # style:            :compressed
